@@ -1,0 +1,47 @@
+#clockContainer{
+    /* background-color: red; */
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background: url(watch.png) no-repeat ;
+    background-size: 100%;
+}
+
+#hour ,#mins ,#secs {
+    position: absolute;
+    /* background: black; */
+    border-radius: 100px;
+    transform-origin: bottom;
+}
+#hour{
+    
+   height: 25%;
+   width: 1%;
+   top: 25%;
+   left: 49.5%;
+   background-color: black;
+   /* display: none; */
+    
+}
+#mins{
+
+   height: 30%;
+   width: 0.8%;
+   top: 20%;
+   left: 49.5%;
+   background-color: black;
+   /* display: none; */
+
+}
+#secs{
+    height: 35%;
+   width: 0.5%;
+   top: 15%;
+   left: 49.8%;
+   background-color: red;
+    /* display: none; */
+
+    
+
+}
